@@ -1,4 +1,22 @@
-h1, 
+@font-face {
+	font-display: swap;
+	font-family: 'Droid Serif';
+	src: local('DroidSerif-Bold'), local('DroidSerif Bold'), url('../fonts/DroidSerif/DroidSerif-Bold.woff2') format('woff2'),
+		url("fonts/DroidSerif/DroidSerif-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Lato';
+	src: local('lato-regular'), local('lato regular'), url('../fonts/Lato/lato-regular.woff2') format('woff2'),
+		url('fonts/Lato/lato.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1,
 h2,
 h3,
 p,
@@ -6,6 +24,14 @@ ol {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 22px;
+	line-height: 33px;
+	font-weight: 400;
+	color: #2d2d2d;
 }
 
 .container {
@@ -18,12 +44,10 @@ ol {
 	margin-left: 76px;
 }
 
-
-
 h1 {
 	margin-top: 100px;
 	margin-bottom: 65px;
-	font-family: Arial, sans-serif;
+	font-family: 'Droid Serif';
 	font-size: 50px;
 	line-height: 65px;
 	font-weight: 700;
@@ -32,23 +56,22 @@ h1 {
 
 p {
 	margin-bottom: 50px;
-	font-family: Arial, sans-serif;
-	font-size: 22px;
-	line-height: 33px;
-	font-weight: 400;
-	color: #2d2d2d;
 	text-align: left;
 }
 
 .list-item {
 	margin-bottom: 50px;
-	font-family: Arial, sans-serif;
+	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
 	color: #525252;
 	list-style: inside;
 	list-style-type: space-counter;
+}
+
+h2 {
+	font-weight: 700;
 }
 
 h3 {
@@ -58,5 +81,3 @@ h3 {
 section {
 	margin-bottom: 50px;
 }
-
-
