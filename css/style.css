@@ -34,13 +34,13 @@ body {
 	color: #2d2d2d;
 }
 
-.container {
-	width: 1760px;
+.container-one {
+	width: 1090px;
 	margin-left: 76px;
 }
 
-.container__one {
-	width: 1090px;
+.container {
+	width: 1760px;
 	margin-left: 76px;
 }
 
